@@ -1,23 +1,29 @@
 {
-  "name": "radioslack",
+  "name": "norrisbot",
   "version": "1.0.0",
-  "description": "Slack Bot Radio Player",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Chuck Norris Slack Bot",
+  "main": "src/norrisbot.js",
+  "bin": {
+    "norrisbot": "bon/bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tudor2004/radioslack.git"
+    "url": "git+https://github.com/tudor2004/norrisbot.git"
   },
-  "author": "Tudor-Dan Ravoiu",
-  "license": "ISC",
+  "author": {
+    "name": "Tudor-Dan Ravoiu",
+    "email": "tudor2004@yahoo.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.12.0"
+  },
   "bugs": {
-    "url": "https://github.com/tudor2004/radioslack/issues"
+    "url": "https://github.com/tudor2004/norrisbot/issues"
   },
-  "homepage": "https://github.com/tudor2004/radioslack#readme",
+  "homepage": "https://github.com/tudor2004/norrisbot#readme",
   "dependencies": {
-    "slackbots": "^0.3.0",
+    "slackbots": "^1.1.0",
     "sqlite3": "^3.1.13"
   }
 }
