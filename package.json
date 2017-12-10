@@ -1,0 +1,27 @@
+{
+  "name": "radioslack",
+  "version": "1.0.0",
+  "description": "Slack Bot Radio Player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tudor2004/radioslack.git"
+  },
+  "author": "Tudor-Dan Ravoiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tudor2004/radioslack/issues"
+  },
+  "homepage": "https://github.com/tudor2004/radioslack#readme",
+  "dependencies": {
+    "lame": "^1.2.4",
+    "pi-gpio": "0.0.8",
+    "slack-node": "^0.1.8",
+    "slackbots": "^0.3.0",
+    "speaker": "^0.4.0",
+    "sqlite3": "^3.1.13"
+  }
+}
